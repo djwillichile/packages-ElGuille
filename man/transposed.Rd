@@ -21,6 +21,6 @@ Esta funcion es ideal para obtener el metadata en los encabezados de los archivo
 La funcion recibe un data.frame horizontal \code{x} y devuelve un data.frame vertical con los campos formateados según su tipo.
 }
 \examples{
-transposed(m.data,1)
+transposed(metaData,1)
 
 }

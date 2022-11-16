@@ -7,6 +7,10 @@
 #' @details Esta funcion es ideal para obtener el metadata en los encabezados de los archivos que contienen bases de datos meteorológicas generados por el laboratorio.
 #' La funcion recibe un data.frame horizontal \code{x} y devuelve un data.frame vertical con los campos formateados según su tipo.
 #' @examples
+#' 
+#' data("metaData")
+#' View(metaData)
+#' 
 #' transposed(metaData,1)
 #' 
 #' @export
